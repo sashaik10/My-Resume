@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manha Shaik - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      font-family: 'Orbitron', sans-serif;
+      color: #e0e0e0;
+      display: flex;
+      justify-content: center;
+      padding: 50px 20px;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(0, 255, 200, 0.4);
+      border-radius: 20px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 0 25px rgba(0, 255, 200, 0.2);
+      padding: 40px;
+      max-width: 800px;
+      width: 100%;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      color: #00ffc8;
+      text-shadow: 0 0 15px #00ffc8;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      color: #ffc300;
+      margin-top: 35px;
+      font-size: 1.5rem;
+      border-left: 5px solid #00ffc8;
+      padding-left: 12px;
+    }
+
+    p, li {
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 25px;
+    }
+
+    li::before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: #00ffc8;
+      border-radius: 50%;
+      margin-right: 12px;
+    }
+
+    hr {
+      border: none;
+      height: 2px;
+      background: #00ffc8;
+      margin: 30px 0;
+      box-shadow: 0 0 10px #00ffc8;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto 25px;
+      width: 150px;
+      height: 150px;
+      border: 3px solid #00ffc8;
+      border-radius: 50%;
+      box-shadow: 0 0 25px #00ffc8;
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 2px solid #00ffc8;
+    }
+
+    footer p {
+      margin: 10px 0;
+      color: #ddd;
+    }
+
+    footer a {
+      color: #00ffc8;
+      text-decoration: none;
+      margin: 0 10px;
+      position: relative;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    footer a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background: #00ffc8;
+      left: 0;
+      bottom: -2px;
+      transition: width 0.3s;
+    }
+
+    footer a:hover {
+      color: #ffffff;
+      text-shadow: 0 0 8px #00ffc8;
+    }
+
+    footer a:hover::after {
+      width: 100%;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Resume</h1>
+    <a href="https://r.mtdv.me/articles/heythere-link" target="_blank">
+      <img src="./Rizzy-Dora.png" alt="Profile Picture" />
+    </a>
+
+    <h3>Manha Shaik</h3>
+    <hr />
+
+    <h3>Summary</h3>
+    <p>I am a young girl who is doing a full-stack web development course, and this is a project within it.</p>
+
+    <hr />
+    <h3>Education</h3>
+    <ul>
+      <li>Kindergarten - A.G. Bell Elementary (2018–2019)</li>
+      <li>1st Grade - Mark Twain Elementary (2019–2020)</li>
+      <li>2nd Grade - H.D. Thoreau Elementary (2020–2021)</li>
+      <li>3rd, 4th & 5th Grade - Oakridge Elementary (2021–2024)</li>
+      <li>6th Grade - Oakridge Middle (2024–2025)</li>
+    </ul>
+
+    <hr />
+    <h3>Work Experience</h3>
+    <p>
+      Wonderful Daughter (2012–current)<br />
+      Spelling Bee Multiple Time Participator (2021–2027)
+    </p>
+
+    <hr />
+    <h3>Skills</h3>
+    <ul>
+      <li>Playing Soccer</li>
+      <li>Being Smart</li>
+      <li>Eating</li>
+      <li>Making Jokes</li>
+      <li>Sarcasm</li>
+      <li>Physical Fighting</li>
+      <li>Singing</li>
+    </ul>
+
+    <hr />
+    <h3>Hobbies</h3>
+    <ul>
+      <li>Playing Soccer, Cricket, and Badminton</li>
+      <li>Eating</li>
+      <li>Reading</li>
+      <li>Singing</li>
+      <li>Playing Fortnite</li>
+      <li>Swimming</li>
+      <li>Writing</li>
+      <li>Watching Movies and TV</li>
+    </ul>
+
+    <footer>
+      <p>&copy; 2025 Manha Shaik. All rights reserved.</p>
+      <p>Contact Info: 
+        <a href="../4.3 HTML Porfolio Project/public/contact.html">Contact Me</a>
+      </p>
+      <p>
+        <a href="../4.3 HTML Porfolio Project/public/about.html">About Me</a> |
+        <a href="../4.3 HTML Porfolio Project/index.html">My Portfolio</a>
+      </p>
+    </footer>
